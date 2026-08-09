@@ -73,11 +73,12 @@ To initialize and deploy this extraction engine in your local environment, execu
 ```bash
 git clone https://github.com/Elsamag/sql-ecom-shopflow-kpi-engine.git
 ```
-###Step 2: Navigate to Project Directory
+### Step 2: Navigate to Project Directory
 ```bash
 cd sql-ecom-shopflow-kpi-engine
 ```
-###Step 3: Execute KPI Extraction Script
+### Step 3: Execute KPI Extraction Script
+```bash
 psql -U admin -d shopflow_db -f src/kpi_extraction.sql
 ```
 
