@@ -65,6 +65,7 @@ FROM
 ```
 ##  Step-by-Step Deployment & Execution Guide
 
+To initialize and deploy this extraction engine in your local environment, run the following terminal commands:
 
 ```bash
 git clone https://github.com/Elsamag/sql-ecom-shopflow-kpi-engine.git
