@@ -65,14 +65,20 @@ FROM
 ```
 ##  Step-by-Step Deployment & Execution Guide
 
-To initialize and deploy this extraction engine in your local environment, run the following terminal commands:
+## Step-by-Step Deployment & Execution Guide
 
+To initialize and deploy this extraction engine in your local environment, execute the following terminal commands in sequence:
+
+### Step 1: Clone the Production Repository
 ```bash
 git clone https://github.com/Elsamag/sql-ecom-shopflow-kpi-engine.git
+```
+###Step 2: Navigate to Project Directory
+```bash
 cd sql-ecom-shopflow-kpi-engine
+```
+###Step 3: Execute KPI Extraction Script
 psql -U admin -d shopflow_db -f src/kpi_extraction.sql
-
----
 ```
 
 > ### 💼 Enterprise Consultation & Retainer Inquiries
