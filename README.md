@@ -63,8 +63,6 @@ FROM
 [Query Verified by Elsamag QA Engine]
 
 ```
-##  Step-by-Step Deployment & Execution Guide
-
 ## Step-by-Step Deployment & Execution Guide
 
 To initialize and deploy this extraction engine in your local environment, execute the following terminal commands in sequence:
