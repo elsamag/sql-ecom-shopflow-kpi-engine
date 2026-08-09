@@ -65,7 +65,7 @@ FROM
 ```
 ##  Step-by-Step Deployment & Execution Guide
 
-### Step 1: Clone the Production Repository
+
 ```bash
 git clone https://github.com/Elsamag/sql-ecom-shopflow-kpi-engine.git
 cd sql-ecom-shopflow-kpi-engine
@@ -73,7 +73,6 @@ psql -U admin -d shopflow_db -f src/kpi_extraction.sql
 
 ---
 ```
-##  Professional Call-to-Action (CTA) & Retainer Inquiries
 
 > ### 💼 Enterprise Consultation & Retainer Inquiries
 >
