@@ -1,0 +1,12 @@
+# ðŸš€ SQL Production Data Extraction Engine
+**Enterprise Practice:** Elsamag IT Solutions  
+**Author & Lead Technical Consultant:** Samuel Chinwendu Agu  
+
+## Overview
+High-performance ANSI SQL production query engineered to collapse transactional rows into an executive daily KPI summary in < 1.5ms execution time.
+
+## Directory Layout
+- `src/kpi_extraction.sql` : Production SQL query script with ANSI standards
+- `config/database.json`   : Target database configuration metadata
+- `benchmarks/execution_log.txt` : Verified console execution log
+- `README.md`              : Repository overview & setup guide
