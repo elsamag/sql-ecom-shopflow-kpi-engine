@@ -7,7 +7,7 @@
 
 ---
 
-## 1. Executive Summary & Client Problem Narrative
+##  Executive Summary & Client Problem Narrative
 
 **ShopFlow Retail**, a high-growth e-commerce brand processing over **50,000 orders monthly**, faced severe operational reporting bottlenecks. Executive leaders relied on manual, multi-hour spreadsheet downloads from raw transaction logs to compute vital daily business KPIs. This legacy process resulted in severe data latencies, calculation errors, and local system freezes.
 
@@ -22,13 +22,13 @@
 
 ---
 
-## 2. Technical Solution Architecture & Core Logic Blueprint
+##  Technical Solution Architecture & Core Logic Blueprint
 
 The optimized query utilizes core ANSI SQL aggregate primitives—`COUNT()`, `SUM()`, and `AVG()`—to transform millions of granular transactional records into a single, high-density executive KPI summary row. By executing calculations directly within the database engine, network payload size is reduced by **99.99%**.
 
 ---
 
-## 3. Production Implementation Snippet
+##  Production Implementation Snippet
 
 Below is the verified production query engineered for instant KPI extraction:
 
@@ -45,7 +45,7 @@ FROM
 
 ```
 
-## 4. Empirical Performance Metrics & Live Terminal Preview
+##  Empirical Performance Metrics & Live Terminal Preview
 
 * **Total Orders Counted:** `12,450` [cite: 11]
 * **Total Gross Revenue:** `$1,842,950.00` [cite: 11]
@@ -63,7 +63,7 @@ FROM
 [Query Verified by Elsamag QA Engine]
 
 ```
-## 6. Step-by-Step Deployment & Execution Guide
+##  Step-by-Step Deployment & Execution Guide
 
 ### Step 1: Clone the Production Repository
 ```bash
@@ -73,7 +73,7 @@ psql -U admin -d shopflow_db -f src/kpi_extraction.sql
 
 ---
 ```
-## 7. Professional Call-to-Action (CTA) & Retainer Inquiries
+##  Professional Call-to-Action (CTA) & Retainer Inquiries
 
 > ### 💼 Enterprise Consultation & Retainer Inquiries
 >
