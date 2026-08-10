@@ -1,0 +1,10 @@
+license_txt = """MIT License
+Copyright (c) 2026 Elsamag IT Solutions - Lead Consultant: Samuel Chinwendu Agu
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction rights, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
+"""
+with open(os.path.join(base, "LICENSE"), "w", encoding="utf-8") as f:
+f.write(license_txt)
