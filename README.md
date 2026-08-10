@@ -68,3 +68,57 @@ The query was executed and verified in a production-grade testing environment ag
 +--------------+---------------+---------------------+------------------+
 1 row in set (0.0012 sec)
 ```
+
+##  Repository Structure & Directory Layout
+
+```text
+sql-ecom-shopflow-kpi-engine/
+├── README.md
+├── LICENSE
+├── src/
+│   └── kpi_extraction.sql
+├── docs/
+│   ├── README.pdf
+│   ├── README.html
+│   └── README-PLAYBOOK.pdf
+├── data/
+│   └── schema.sql
+└── benchmarks/
+    └── execution_log.txt
+```
+
+
+##  Step-by-Step Deployment & Execution Guide
+
+To initialize and deploy this extraction engine in your local environment, execute the following terminal commands in sequence:
+
+### Step 1: Clone the Production Repository
+```bash
+git clone https://github.com/Elsamag/sql-ecom-shopflow-kpi-engine.git
+```
+
+### Step 2: Navigate to Project Directory
+```bash
+cd sql-ecom-shopflow-kpi-engine
+```
+
+### Step 3: Execute KPI Extraction Script
+```bash
+sqlite3 data/shopflow.db < src/kpi_extraction.sql
+```
+
+> ### 💼 Need Custom Database Optimization & Analytics Infrastructure?
+>
+> **Elsamag IT Solutions** provides enterprise database optimization, automated reporting pipeline design, and high-performance SQL query tuning.
+>
+> * **Lead Technical Consultant:** Samuel Chinwendu Agu
+> * **GitHub Profile:** [github.com/Elsamag](https://github.com/Elsamag)
+> * **Direct Engagement:** Reach out via GitHub or Upwork for retainer inquiries, custom architecture audits, and database optimization contracts.
+
+---
+
+### ⭐ Support & Feedback
+
+If this project or repository helped you optimize your infrastructure or solve a technical bottleneck, please give it a **Star (⭐)** on GitHub!
+
+Follow **[Samuel Chinwendu Agu (@Elsamag)](https://github.com/Elsamag)** for upcoming open-source enterprise analytics, cybersecurity, and data engineering tools.
