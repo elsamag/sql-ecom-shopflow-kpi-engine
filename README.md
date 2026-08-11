@@ -60,14 +60,13 @@ The query was executed and verified in a production-grade testing environment ag
 * **CPU Load:** 0.8%
 * **Records Processed:** 512,840
 
-```text
 +--------------+---------------+---------------------+------------------+
 | total_orders | total_revenue | average_order_value | peak_order_value |
 +--------------+---------------+---------------------+------------------+
 | 512,840      | $24,850,920   | $48.46              | $4,999.00        |
 +--------------+---------------+---------------------+------------------+
 1 row in set (0.0012 sec)
-```
+
 
 ##  Repository Structure & Directory Layout
 
